@@ -1,0 +1,16 @@
+package pages;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import utils.DriverFactory;
+
+
+public class AmazonPage {
+		
+	    public static void OpenDriver() {
+	        DriverFactory.getDriver().get("file:///" + System.getProperty("user.dir") + "chromedriver.exe");
+	        
+	        // Encerre a sessão do WebDriver
+	        DriverFactory.killDriver();
+	}
+}

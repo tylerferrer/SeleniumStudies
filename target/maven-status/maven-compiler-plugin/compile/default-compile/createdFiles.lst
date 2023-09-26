@@ -1,0 +1,4 @@
+pages\homePage.class
+stepDefinitions\AmazonSteps.class
+pages\loginPage.class
+pages\hooks.class

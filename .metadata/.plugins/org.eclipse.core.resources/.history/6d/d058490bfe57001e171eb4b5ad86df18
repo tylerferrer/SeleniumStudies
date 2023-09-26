@@ -1,0 +1,12 @@
+package utils;
+
+import io.cucumber.java.After;
+
+public class BasePage {
+
+	@After
+	public void quit() {
+        DriverFactory.killDriver();
+	}
+	
+}
