@@ -2,6 +2,8 @@
 @busca
 Feature: Buscar um item na amazon
 
+@RunMe
+
   Scenario: Buscar um fone de ouvido na amazon
     Given que eu estou na pagina inicial da Amazon
     When eu digito "Fone de ouvido" na caixa de pesquisa

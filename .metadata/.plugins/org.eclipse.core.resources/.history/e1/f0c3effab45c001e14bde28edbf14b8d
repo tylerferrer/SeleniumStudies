@@ -1,0 +1,20 @@
+package utils;
+
+import io.cucumber.java.After;
+import io.cucumber.java.AfterAll;
+import io.cucumber.java.BeforeAll;
+
+public class BasePage {
+
+	
+	@BeforeAll
+	public static void OpenDriver() {
+        DriverFactory.getDriver().get("file:///" + System.getProperty("user.dir") + "chromedriver.exe");
+
+}
+	@AfterAll
+	public void quit() {	 
+        DriverFactory.killDriver();
+	}
+	
+}
