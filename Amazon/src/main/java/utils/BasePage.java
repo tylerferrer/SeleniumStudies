@@ -1,7 +1,7 @@
 package utils;
 
-import io.cucumber.java.After;
-import io.cucumber.java.BeforeAll;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeAll;
 
 public class BasePage {
 
@@ -11,7 +11,7 @@ public class BasePage {
         DriverFactory.getDriver().get("file:///" + System.getProperty("user.dir") + "chromedriver.exe");
 
 }
-	@After
+	@AfterAll
 	public void quit() {	 
         DriverFactory.killDriver();
 	}

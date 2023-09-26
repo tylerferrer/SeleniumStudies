@@ -12,8 +12,9 @@ import static io.cucumber.core.options.Constants.PLUGIN_PUBLISH_QUIET_PROPERTY_N
 @Suite
 @IncludeEngines("cucumber")
 @SelectClasspathResource("/features")
-@ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "features"+
-"runners"
+@ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "features,"+
+"runners," +
+		"stepDefinition,"
 		)
 @ConfigurationParameter(key = PLUGIN_PUBLISH_QUIET_PROPERTY_NAME, value = "true")
 @ConfigurationParameter(key = FILTER_TAGS_PROPERTY_NAME, value = "@RunMe")
