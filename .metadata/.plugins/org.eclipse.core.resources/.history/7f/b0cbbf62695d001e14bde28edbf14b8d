@@ -1,0 +1,28 @@
+package utils;
+
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeAll;
+
+import io.cucumber.java.After;
+import io.cucumber.java.AfterStep;
+
+public class BasePage {
+
+	
+	@BeforeAll
+	public static void OpenDriver() {
+        DriverFactory.getDriver().get("file:///" + System.getProperty("user.dir") + "chromedriver.exe");
+
+}
+	
+	@AfterStep
+	public void afterStep() {
+	    takeScreenshot();
+	}
+	
+	@After
+	public void quit() {	 
+        DriverFactory.killDriver();
+	}
+	
+}

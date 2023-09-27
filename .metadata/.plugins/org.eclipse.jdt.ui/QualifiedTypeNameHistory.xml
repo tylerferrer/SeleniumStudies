@@ -10,9 +10,18 @@
     <fullyQualifiedTypeName name="pages.AmazonPage"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.support.How"/>
     <fullyQualifiedTypeName name="utils.HelperClass"/>
-    <fullyQualifiedTypeName name="io.cucumber.java.Before"/>
     <fullyQualifiedTypeName name="utils.DriverFactory"/>
-    <fullyQualifiedTypeName name="io.cucumber.java.After"/>
     <fullyQualifiedTypeName name="utils.BasePage"/>
     <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.Before"/>
+    <fullyQualifiedTypeName name="io.cucumber.junit.platform.engine.Cucumber"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.BeforeAll"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.AfterEach"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.AfterAll"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.AfterAll"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeAll"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.AfterStep"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.After"/>
+    <fullyQualifiedTypeName name="org.junit.AfterClass"/>
 </qualifiedTypeNameHistroy>
